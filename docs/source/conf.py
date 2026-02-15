@@ -31,5 +31,10 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# Static files (CSS, JavaScript, images)
+html_static_path = ['_static']
+# Copy OpenAPI spec file directly to the build output directory
+html_extra_path = ['swagger.json']
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
