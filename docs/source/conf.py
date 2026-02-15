@@ -31,8 +31,9 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-# Copy OpenAPI spec file to build directory
+# Static files (CSS, JavaScript, images)
 html_static_path = ['_static']
+# Copy OpenAPI spec file directly to the build output directory
 html_extra_path = ['openapi.yaml']
 
 # -- Options for EPUB output
