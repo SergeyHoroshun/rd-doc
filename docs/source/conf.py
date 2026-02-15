@@ -31,5 +31,9 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# Copy OpenAPI spec file to build directory
+html_static_path = ['_static']
+html_extra_path = ['openapi.yaml']
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
