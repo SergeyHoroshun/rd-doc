@@ -23,7 +23,7 @@ Below is the interactive API documentation generated from the OpenAPI specificat
    <script>
    window.onload = () => {
      window.ui = SwaggerUIBundle({
-       url: 'openapi.yaml',
+       url: 'swagger.json',
        dom_id: '#swagger-ui',
        deepLinking: true,
        presets: [
@@ -41,4 +41,4 @@ Below is the interactive API documentation generated from the OpenAPI specificat
 API Specification File
 ----------------------
 
-The OpenAPI specification is available as a downloadable file: :download:`openapi.yaml <openapi.yaml>`
+The OpenAPI specification is available as a downloadable file: :download:`swagger.json <swagger.json>`
