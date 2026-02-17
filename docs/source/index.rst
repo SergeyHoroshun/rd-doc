@@ -64,10 +64,6 @@ The main scraping endpoint. Submit a URL and configuration to extract data from 
 
 The request body contains configuration options for the scraping operation.
 
-GET /
-~~~~~
-
-Health check endpoint. Returns a simple string indicating the service status.
 
 Request Schema (RequestV1)
 --------------------------

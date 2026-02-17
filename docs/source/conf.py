@@ -31,6 +31,13 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# Theme options for sphinx_rtd_theme
+html_theme_options = {
+    'collapse_navigation': False,  # Розгорнути меню за замовченням
+    'navigation_depth': 4,  # Глибина навігації
+    'sticky_navigation': True,  # Фіксоване меню при прокручуванні
+}
+
 # Static files (CSS, JavaScript, images)
 html_static_path = ['_static']
 # Copy OpenAPI spec file directly to the build output directory
